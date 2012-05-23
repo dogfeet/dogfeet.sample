@@ -15,7 +15,7 @@ def tryToConnect( argv ):
     try:
         sock.connect( (ip, port) )
     except:
-        print "{0} {1}".format( ip, port )
+        print ip, port
 
     sock.close()
 
